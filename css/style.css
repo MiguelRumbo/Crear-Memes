@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
+}
+
+header, footer{
+    background-color: #101230;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+    position: relative;
+}	
+
+#resultados{
+	height:600px;
+	background-color: #294d5a;
+	font-size:20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container_1{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    
+}
+
+#container_2{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.down_container{
+    position: relative;
+    top: 230px;
+    left: 150px;
+}
+#image{
+    display: flex;
+  align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    
+}
+#imgcats{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.imgcats{
+    height: 100px;
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+ }
+#option{
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#buton{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-40%) translateX(-50%);
+    
+}
+
+#crear{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+.preview_1{
+    width: 80px;
+    height: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+.preview_1:hover{
+    width: 100px;
+    height: 120px;
+    
+}
+#preview_2{
+    z-index: 0;
+    position: relative;
+    top: -30px;
+    width: 550px;
+    height: 450px;
+}
+
+#txtmeme{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    position: relative;
+    top: 72px;
+    min-width: 540px;
+    max-width: 540px;
+    min-height: 100px;
+    max-height: 100px;
+    
+}
+footer{
+    background-color: #204956;
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Crear Memes</title>
+</head>
+<body>
+    <header>
+		<h1>¡Javascript!</h1>
+	</header>
+    <section id="resultados" class="resultados">
+        <div id="container_1">
+            <div id="image">
+                <select name="" id="option" >
+                    <option value="1">Gatitos 1</option>
+                    <option value="2">Gatitos 2</option>
+                    <option value="3">Gatitos 3</option>
+                </select>
+            </div>
+
+                <div id="imgcats_1" class="imgcats">
+                    <img class="preview_1" id="img_1A" src="img/Categoria1/img1.png" onclick="cambiarImg()">
+                    <img class="preview_1" id="img_2A" src="img/Categoria1/img2.png" onclick="cambiarImg()">
+                    <img class="preview_1" id="img_3A" src="img/Categoria1/img3.png" onclick="cambiarImg()">
+                </div>
+                <div id="imgcats_2" class="imgcats" style="display: none;">
+                    <img class="preview_1" id="img_1B" src="img/Categoria2/img4.png" onclick="cambiarImg()">
+                    <img class="preview_1" id="img_2B" src="img/Categoria2/img5.png" onclick="cambiarImg()">
+                    <img class="preview_1" id="img_3B" src="img/Categoria2/img6.png" onclick="cambiarImg()">
+                </div>
+                <div id="imgcats_3" class="imgcats" style="display: none;">
+                    <img class="preview_1" id="img_1C" src="img/Categoria3/img7.png" onclick="cambiarImg()">
+                    <img class="preview_1" id="img_2C" src="img/Categoria3/img8.png" onclick="cambiarImg()">
+                    <img class="preview_1" id="img_3C" src="img/Categoria3/img9.png" onclick="cambiarImg()">
+                </div>
+                <div class="down_container">
+                    <p>Hola papu, aqui podras crear tus momazos</p>
+                    <input type="text" id="meme" placeholder="Ingresa el texto">
+                    <button id="btn_final" onclick="crearText()">Aplicar a la imagen</button>
+                </div>
+        </div>
+        <div id="container_2">
+            <div id="txtmeme">AQUI APARECERA LA IMAGEN Y EL MEME QUE QUIERAS</div>
+            <img id="preview_2" src="img/Categoria1/img2.png" >
+        </div>
+    </section>
+    
+    <footer>D A N D </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
